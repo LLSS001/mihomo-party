@@ -33,7 +33,7 @@ async function createGist(token: string, content: string): Promise<void> {
     {
       description: 'Auto Synced Mihomo Party Runtime Config',
       public: false,
-      files: { 'mihomo-party.yaml': { content } }
+      files: { 'clash-meta-party.yaml': { content } }
     },
     {
       headers: {
@@ -56,7 +56,7 @@ async function updateGist(token: string, id: string, content: string): Promise<v
     `https://api.github.com/gists/${id}`,
     {
       description: 'Auto Synced Mihomo Party Runtime Config',
-      files: { 'mihomo-party.yaml': { content } }
+      files: { 'clash-meta-party.yaml': { content } }
     },
     {
       headers: {

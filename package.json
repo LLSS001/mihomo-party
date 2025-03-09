@@ -1,10 +1,10 @@
 {
-  "name": "mihomo-party",
+  "name": "clash-meta-party",
   "version": "1.6.1",
-  "description": "Mihomo Party",
+  "description": "Clash Meta Party",
   "main": "./out/main/index.js",
-  "author": "mihomo-party-org",
-  "homepage": "https://mihomo.party",
+  "author": "clash-meta-party-org",
+  "homepage": "https://clash-meta.party",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",

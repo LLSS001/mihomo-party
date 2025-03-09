@@ -1,6 +1,6 @@
 import { Button } from '@heroui/react'
 import BasePage from '@renderer/components/base/base-page'
-import { CgWebsite } from 'react-icons/cg'
+// import { CgWebsite } from 'react-icons/cg'
 import { IoLogoGithub } from 'react-icons/io5'
 import WebdavConfig from '@renderer/components/settings/webdav-config'
 import GeneralConfig from '@renderer/components/settings/general-config'
@@ -17,7 +17,7 @@ const Settings: React.FC = () => {
       title="应用设置"
       header={
         <>
-          <Button
+          {/* <Button
             isIconOnly
             size="sm"
             variant="light"
@@ -28,7 +28,7 @@ const Settings: React.FC = () => {
             }}
           >
             <CgWebsite className="text-lg" />
-          </Button>
+          </Button> */}
           <Button
             isIconOnly
             size="sm"
@@ -36,12 +36,12 @@ const Settings: React.FC = () => {
             className="app-nodrag"
             title="GitHub 仓库"
             onPress={() => {
-              window.open('https://github.com/xishang0128/mihomo-party')
+              window.open('https://github.com/xishang0128/clash-meta-party')
             }}
           >
             <IoLogoGithub className="text-lg" />
           </Button>
-          <Button
+          {/* <Button
             isIconOnly
             size="sm"
             variant="light"
@@ -52,7 +52,7 @@ const Settings: React.FC = () => {
             }}
           >
             <FaTelegramPlane className="text-lg" />
-          </Button>
+          </Button> */}
         </>
       }
     >

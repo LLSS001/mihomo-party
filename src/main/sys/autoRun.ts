@@ -5,7 +5,7 @@ import { existsSync } from 'fs'
 import { promisify } from 'util'
 import path from 'path'
 
-const appName = 'mihomo-party'
+const appName = 'clash-meta-party'
 
 const taskXml = `<?xml version="1.0" encoding="UTF-16"?>
 <Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
@@ -94,12 +94,12 @@ export async function enableAutoRun(): Promise<void> {
   if (process.platform === 'linux') {
     let desktop = `
 [Desktop Entry]
-Name=mihomo-party
+Name=clash-meta-party
 Exec=${exePath()} %U
 Terminal=false
 Type=Application
-Icon=mihomo-party
-StartupWMClass=mihomo-party
+Icon=clash-meta-party
+StartupWMClass=clash-meta-party
 Comment=Mihomo Party
 Categories=Utility;
 `
